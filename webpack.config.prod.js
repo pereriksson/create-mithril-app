@@ -1,6 +1,5 @@
 const path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-const { WebpackPluginServe: Serve } = require('webpack-plugin-serve');
 const outputPath = path.resolve(__dirname, './dist');
 const options = {
     static: outputPath
@@ -8,9 +7,9 @@ const options = {
 const title = "Title";
 
 module.exports = {
+    mode: "production",
     entry: [
-        './index.js',
-        'webpack-plugin-serve/client'
+        './index.js'
     ],
     output: {
         path: outputPath,
@@ -48,8 +47,6 @@ module.exports = {
             title: title,
             hash: true,
             template: "./src/index.ejs"
-        }),
-        new Serve(options)
-    ],
-    watch: true
+        })
+    ]
 };
