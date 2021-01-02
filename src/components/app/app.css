@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    background: url("../../assets/images/logo.svg");
+    margin: 0 auto;
+}
