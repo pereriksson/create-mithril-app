@@ -11,17 +11,17 @@ npm start
 
 ## Purpose
 
-The purpose of this repo is to provide a fully working minimal setup to start developing with the web framework Mithril. This repo provides with the following:
+The purpose of this repo is to provide a fully working minimal setup to start developing a new aoo with the web framework Mithril. This repo provides the following:
 
-* webpack-plugin serve (because webpack-dev-server is bad)
-* webpack configured with babel
-* JSX
-* url-loader plugin to bundle static files
-* style-loader and css-loader to bundle css files
-* routing, an App layout component and home component to get started
+* webpack-plugin serve - an alternative to webpack-dev-server
+* webpack configured with babel - to automatically transpile your code
+* JSX - to write beautiful components
+* url-loader - plugin to bundle static files
+* style-loader, css-loader - to bundle css files
+* a Mithril setup with routing, an App layout component and a Home component to get started
 
-Hopefully this repo can lower the barrier for developers to get started with Mithril.
+Hopefully this repo can lower the barrier for new developers to get started with Mithril.
 
-## Thanks
+## Thank you
 
-Thank you to [the mithril.js community](https://mithril.js.org/simple-application.html) for building a great web framework. To `create-react-app` for the inspiration to thie repo.
+Thank you to [the mithril.js community](https://mithril.js.org/simple-application.html) for building a great web framework. To `create-react-app` for the inspiration to this repo.
