@@ -11,7 +11,7 @@ npm start
 
 ## Purpose
 
-The purpose of this repo is to provide a fully working minimal setup to start developing a new aoo with the web framework Mithril. This repo provides the following:
+The purpose of this repo is to provide a fully working minimal setup to start developing a new app with the web framework Mithril. This repo provides the following:
 
 * webpack-plugin serve - an alternative to webpack-dev-server
 * webpack configured with babel - to automatically transpile your code
