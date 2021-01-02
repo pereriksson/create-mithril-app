@@ -5,7 +5,7 @@ import "./app.css";
 
 let App = function(vnode) {
     return {
-        view: () => (
+        view: (vnode) => (
             <main>
                 <div class="logo"></div>
                 {vnode.children}
