@@ -22,10 +22,6 @@ The purpose of this repo is to provide a fully working minimal setup to start de
 
 Hopefully this repo can lower the barrier for developers to get started with Mithril.
 
-## Configuration
-
-The created project comes with two webpack files, one for development, one for build. They can be configured further to suit your needs. *Please be aware we cannot support all these different configurations*
-
-## Special Thanks
+## Thanks
 
 Thank you to [the mithril.js community](https://mithril.js.org/simple-application.html) for building a great web framework. To `create-react-app` for the inspiration to thie repo.
