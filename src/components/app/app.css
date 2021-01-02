@@ -12,4 +12,17 @@ h1 {
     height: 5rem;
     background: url("../../assets/images/logo.svg");
     margin: 0 auto;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
