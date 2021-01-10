@@ -5,7 +5,6 @@ let App = function(vnode) {
     return {
         view: (vnode) => (
             <main>
-                <div class="logo"></div>
                 {vnode.children}
             </main>
         )
